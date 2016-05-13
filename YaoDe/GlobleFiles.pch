@@ -1,0 +1,17 @@
+//
+//  GlobleFiles.pch
+//  YaoDe
+//
+//  Created by iosnull on 15/8/28.
+//  Copyright (c) 2015年 yongzhikeji. All rights reserved.
+//
+
+
+#ifndef YaoDe_GlobleFiles_pch
+#define YaoDe_GlobleFiles_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#endif

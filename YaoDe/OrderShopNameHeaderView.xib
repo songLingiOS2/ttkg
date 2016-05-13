@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="OrderShopNameHeaderView" id="iN0-l3-epB" customClass="OrderShopNameHeaderView" customModule="YaoDe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RzE-lq-TXC">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="702-WD-nDF"/>
+                        <constraint firstAttribute="width" constant="40" id="vL1-nh-yrZ"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="702-WD-nDF"/>
+                            <exclude reference="vL1-nh-yrZ"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="702-WD-nDF"/>
+                            <include reference="vL1-nh-yrZ"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商家名称" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7I-FG-87l">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="c5X-Oe-yvu"/>
+                        <constraint firstAttribute="width" constant="193" id="oGA-Wp-gvL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="c5X-Oe-yvu"/>
+                            <exclude reference="oGA-Wp-gvL"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="c5X-Oe-yvu"/>
+                            <include reference="oGA-Wp-gvL"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.87450980389999999" green="0.87450980389999999" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="RzE-lq-TXC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2Z1-Fo-AwX"/>
+                <constraint firstItem="g7I-FG-87l" firstAttribute="leading" secondItem="RzE-lq-TXC" secondAttribute="trailing" constant="8" id="QKe-ZC-GYV"/>
+                <constraint firstItem="g7I-FG-87l" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="11" id="hhr-CN-Bdw"/>
+                <constraint firstItem="RzE-lq-TXC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="nSt-fp-Ahr"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="RzE-lq-TXC"/>
+                    <exclude reference="g7I-FG-87l"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="QKe-ZC-GYV"/>
+                    <exclude reference="hhr-CN-Bdw"/>
+                    <exclude reference="2Z1-Fo-AwX"/>
+                    <exclude reference="nSt-fp-Ahr"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="RzE-lq-TXC"/>
+                    <include reference="g7I-FG-87l"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="QKe-ZC-GYV"/>
+                    <include reference="hhr-CN-Bdw"/>
+                    <include reference="2Z1-Fo-AwX"/>
+                    <include reference="nSt-fp-Ahr"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="name" destination="g7I-FG-87l" id="Iv6-mm-vmN"/>
+                <outlet property="shoppingImage" destination="RzE-lq-TXC" id="CYV-Ft-WU2"/>
+            </connections>
+            <point key="canvasLocation" x="570" y="-269.5"/>
+        </view>
+    </objects>
+</document>

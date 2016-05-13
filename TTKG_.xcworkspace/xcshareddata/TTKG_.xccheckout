@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F052F12C-7968-4345-BE17-0E8D16D61DDF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TTKG_</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>10727F0F91FD4B89B5B8CB37D8B5A699562C015A</key>
+		<string>https://github.com/songLingiOS/YaoDe100_Product_iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TTKG_.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>10727F0F91FD4B89B5B8CB37D8B5A699562C015A</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/songLingiOS/YaoDe100_Product_iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>10727F0F91FD4B89B5B8CB37D8B5A699562C015A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>10727F0F91FD4B89B5B8CB37D8B5A699562C015A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ttkg</string>
+		</dict>
+	</array>
+</dict>
+</plist>

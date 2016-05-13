@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="OrderShopNameFooterView" id="iN0-l3-epB" customClass="OrderShopNameFooterView" customModule="YaoDe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="合计:￥1288.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MH6-oA-7JJ">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="298-BP-EfY"/>
+                        <constraint firstAttribute="width" constant="149" id="xi3-fB-J1b"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="1" green="0.2144269899" blue="0.1913748938" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="298-BP-EfY"/>
+                            <exclude reference="xi3-fB-J1b"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="298-BP-EfY"/>
+                            <include reference="xi3-fB-J1b"/>
+                        </mask>
+                    </variation>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VLq-MG-We9">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.79215686269999996" green="0.79215686269999996" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="gnV-wv-vAn"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="gnV-wv-vAn"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="gnV-wv-vAn"/>
+                        </mask>
+                    </variation>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="共0件商品" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofo-Fi-Moz">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="121" id="LH4-Gd-6r1"/>
+                        <constraint firstAttribute="height" constant="21" id="dTR-TJ-Ku4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="LH4-Gd-6r1"/>
+                            <exclude reference="dTR-TJ-Ku4"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="LH4-Gd-6r1"/>
+                            <include reference="dTR-TJ-Ku4"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="MH6-oA-7JJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="8lM-of-wvy"/>
+                <constraint firstItem="Ofo-Fi-Moz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="AbC-td-DB7"/>
+                <constraint firstItem="Ofo-Fi-Moz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="HEr-lQ-yDT"/>
+                <constraint firstAttribute="trailing" secondItem="MH6-oA-7JJ" secondAttribute="trailing" constant="10" id="cb3-a9-kdB"/>
+                <constraint firstItem="VLq-MG-We9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fI1-kQ-4DL"/>
+                <constraint firstItem="VLq-MG-We9" firstAttribute="top" secondItem="MH6-oA-7JJ" secondAttribute="bottom" constant="8" id="fIv-ww-oH0"/>
+                <constraint firstAttribute="trailing" secondItem="VLq-MG-We9" secondAttribute="trailing" id="gkY-wp-P4S"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="MH6-oA-7JJ"/>
+                    <exclude reference="VLq-MG-We9"/>
+                    <exclude reference="Ofo-Fi-Moz"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="8lM-of-wvy"/>
+                    <exclude reference="cb3-a9-kdB"/>
+                    <exclude reference="AbC-td-DB7"/>
+                    <exclude reference="HEr-lQ-yDT"/>
+                    <exclude reference="fI1-kQ-4DL"/>
+                    <exclude reference="fIv-ww-oH0"/>
+                    <exclude reference="gkY-wp-P4S"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="MH6-oA-7JJ"/>
+                    <include reference="VLq-MG-We9"/>
+                    <include reference="Ofo-Fi-Moz"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="8lM-of-wvy"/>
+                    <include reference="cb3-a9-kdB"/>
+                    <include reference="AbC-td-DB7"/>
+                    <include reference="HEr-lQ-yDT"/>
+                    <include reference="fI1-kQ-4DL"/>
+                    <include reference="fIv-ww-oH0"/>
+                    <include reference="gkY-wp-P4S"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="nums" destination="Ofo-Fi-Moz" id="FE7-pe-25L"/>
+                <outlet property="price" destination="MH6-oA-7JJ" id="RrQ-aH-0Uh"/>
+            </connections>
+        </view>
+    </objects>
+</document>

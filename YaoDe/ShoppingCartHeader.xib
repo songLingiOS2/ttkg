@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ShoppingCartHeader" id="iN0-l3-epB" customClass="ShoppingCartHeader" customModule="YaoDe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODQ-fI-7Bp">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.87450980389999999" green="0.87450980389999999" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="134" id="Nh1-NO-2bA"/>
+                        <constraint firstAttribute="height" constant="22" id="dXY-0E-1ZO"/>
+                    </constraints>
+                    <state key="normal" image="che_nor">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Nh1-NO-2bA"/>
+                            <exclude reference="dXY-0E-1ZO"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="Nh1-NO-2bA"/>
+                            <include reference="dXY-0E-1ZO"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="selectBtnClk:" destination="iN0-l3-epB" eventType="touchUpInside" id="tEv-ct-l9c"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商家描述" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmm-IG-ZgZ">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.87450980389999999" green="0.87450980389999999" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="5Z4-5s-Mo8"/>
+                        <constraint firstAttribute="width" constant="362" id="O62-p4-p8D"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="highlightedColor" red="0.87450980389999999" green="0.87450980389999999" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="5Z4-5s-Mo8"/>
+                            <exclude reference="O62-p4-p8D"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="5Z4-5s-Mo8"/>
+                            <include reference="O62-p4-p8D"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.87450980389999999" green="0.87450980389999999" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="ODQ-fI-7Bp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="NSa-PX-50I"/>
+                <constraint firstItem="ODQ-fI-7Bp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="c9j-5Z-i4n">
+                    <variation key="heightClass=regular-widthClass=compact" constant="4"/>
+                </constraint>
+                <constraint firstItem="kmm-IG-ZgZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="38" id="eDM-HN-3UT"/>
+                <constraint firstItem="kmm-IG-ZgZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="1" id="sFF-NW-7MK">
+                    <variation key="heightClass=regular-widthClass=compact" constant="4"/>
+                </constraint>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="ODQ-fI-7Bp"/>
+                    <exclude reference="kmm-IG-ZgZ"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="eDM-HN-3UT"/>
+                    <exclude reference="sFF-NW-7MK"/>
+                    <exclude reference="NSa-PX-50I"/>
+                    <exclude reference="c9j-5Z-i4n"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="ODQ-fI-7Bp"/>
+                    <include reference="kmm-IG-ZgZ"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="eDM-HN-3UT"/>
+                    <include reference="sFF-NW-7MK"/>
+                    <include reference="NSa-PX-50I"/>
+                    <include reference="c9j-5Z-i4n"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="merchantBrief" destination="kmm-IG-ZgZ" id="gVV-lS-rLd"/>
+                <outlet property="selectBtn" destination="ODQ-fI-7Bp" id="Kj9-GI-QEU"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="che_nor" width="20" height="20"/>
+    </resources>
+</document>

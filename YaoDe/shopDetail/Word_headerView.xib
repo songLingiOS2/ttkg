@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="Word_headerView" id="iN0-l3-epB" customClass="Word_headerView" customModule="YaoDe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="配送放式" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFm-b6-DqE">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="79" id="8m6-sL-bvI"/>
+                        <constraint firstAttribute="height" constant="21" id="dcj-84-dEU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="8m6-sL-bvI"/>
+                            <exclude reference="dcj-84-dEU"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="8m6-sL-bvI"/>
+                            <include reference="dcj-84-dEU"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="快递 免邮" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8f1-hg-jHP">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="95" id="vNP-yC-2DV"/>
+                        <constraint firstAttribute="height" constant="21" id="zAV-B2-APJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="vNP-yC-2DV"/>
+                            <exclude reference="zAV-B2-APJ"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="vNP-yC-2DV"/>
+                            <include reference="zAV-B2-APJ"/>
+                        </mask>
+                    </variation>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rSa-dK-pXw">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="6VX-pc-Dca"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="6VX-pc-Dca"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="6VX-pc-Dca"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="iFm-b6-DqE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="1Le-Co-vZ0"/>
+                <constraint firstItem="8f1-hg-jHP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="QZG-so-cWS"/>
+                <constraint firstItem="rSa-dK-pXw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aft-FY-1eZ"/>
+                <constraint firstItem="iFm-b6-DqE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="f6j-2G-pTP"/>
+                <constraint firstAttribute="trailing" secondItem="8f1-hg-jHP" secondAttribute="trailing" id="mSL-uo-01e"/>
+                <constraint firstItem="rSa-dK-pXw" firstAttribute="top" secondItem="8f1-hg-jHP" secondAttribute="bottom" constant="8" id="uNU-7x-Cvj"/>
+                <constraint firstAttribute="trailing" secondItem="rSa-dK-pXw" secondAttribute="trailing" id="vdv-WY-ESW"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="iFm-b6-DqE"/>
+                    <exclude reference="8f1-hg-jHP"/>
+                    <exclude reference="rSa-dK-pXw"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="1Le-Co-vZ0"/>
+                    <exclude reference="f6j-2G-pTP"/>
+                    <exclude reference="aft-FY-1eZ"/>
+                    <exclude reference="uNU-7x-Cvj"/>
+                    <exclude reference="vdv-WY-ESW"/>
+                    <exclude reference="QZG-so-cWS"/>
+                    <exclude reference="mSL-uo-01e"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="iFm-b6-DqE"/>
+                    <include reference="8f1-hg-jHP"/>
+                    <include reference="rSa-dK-pXw"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="1Le-Co-vZ0"/>
+                    <include reference="f6j-2G-pTP"/>
+                    <include reference="aft-FY-1eZ"/>
+                    <include reference="uNU-7x-Cvj"/>
+                    <include reference="vdv-WY-ESW"/>
+                    <include reference="QZG-so-cWS"/>
+                    <include reference="mSL-uo-01e"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="434.5" y="330.5"/>
+        </view>
+    </objects>
+</document>

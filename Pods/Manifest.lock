@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (1.2.3)
+  - REMenu (1.10)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SnapKit (0.13.0)
+  - SwiftDate (1.0.11)
+  - SwiftyJSON (2.2.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 1.2.3)
+  - REMenu (~> 1.10)
+  - SDWebImage (~> 3.7)
+  - SnapKit (~> 0.13.0)
+  - SwiftDate (~> 1.0.0)
+  - SwiftyJSON (~> 2.2.1)
+
+SPEC CHECKSUMS:
+  Alamofire: 5550bf0b575ed1a4bf9be572f9463e1015cc169e
+  REMenu: 30dad195930adf6c5eeb8041e3257aa60bf9fa49
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SnapKit: 69fe274c71511df89a5591c11437a8b826bfa9eb
+  SwiftDate: c2fdcd66c327c799749a435a05521b20a4074009
+  SwiftyJSON: ae2d0a3d68025d136602a33c4ee215091ced3e33
+
+COCOAPODS: 0.39.0
